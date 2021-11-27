@@ -1,0 +1,35 @@
+{
+  "name": "ahj-polling-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lap-Dmitry/Ahj-Polling-Backend.git"
+  },
+  "author": "Dmitry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lap-Dmitry/Ahj-Polling-Backend/issues"
+  },
+  "homepage": "https://github.com/lap-Dmitry/Ahj-Polling-Backend#readme",
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.1.1",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2",
+    "ws": "^7.2.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
